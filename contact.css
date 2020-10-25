@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 2px;
+}
+body{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+#registration, #connection{
+    width: 80%;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin: .4rem 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Krona One', sans-serif;
+}
+.box label{
+    color: #fff;
+    text-shadow: 1px 1px 15px #333;
+}
+.box input{
+    width:  300px;
+    height: 40px;
+}
+button{
+    font-size: 1.1rem;
+    width: 180px;
+    height: 35px;
+    margin-top: 17px;
+    border: 0.16rem solid #ffffff;
+    border-radius: 0.3rem;
+    background:#d61818c9;
+}
+
+button:hover{
+    border: .16rem solid darkslategray;
+    background: #fff;
+}
+.box sub{
+    width:  300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#sub{
+    width: inherit;
+    height: 75px;
+}
+#h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+    
+}
